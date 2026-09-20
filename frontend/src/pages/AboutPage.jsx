@@ -1,0 +1,3 @@
+import { BranchIntroduction, AboutSections } from '../components/BranchSections';
+import { PageHeader } from '../components/Shared';
+export default function AboutPage(){return <><PageHeader title="About IEEE IIIT Ranchi">IEEE Student Branch · Indian Institute of Information Technology Ranchi</PageHeader><section className="container about-introduction"><img src="/reference/institute.svg" alt="Indian Institute of Information Technology Ranchi"/><div><BranchIntroduction/><p>Branch history is recorded on the <a href="https://iiitieee.netlify.app/" target="_blank" rel="noopener noreferrer">original IEEE IIIT Ranchi website</a>.</p></div></section><AboutSections/></>}
